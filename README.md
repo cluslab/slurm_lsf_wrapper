@@ -15,10 +15,10 @@
 12. bsub
 
 ### 用-h命令查看支持的option，例如：
-[root@admin01]# bsub -h
-Usage:
-    bsub [options] command [arguments]
-Options:
+    [root@admin01]# bsub -h
+    Usage:
+         bsub [options] command [arguments]
+    Options:
     -h
         Brief help message
 
@@ -51,7 +51,7 @@ Options:
         Space separated list of hosts that this job will run on.
 
     -I
-        Submits an interactive job.
+        Submits an interactive job.`
 
 ### 使用方法：
 将wrappers目录下的.py文件，拷贝到slurm的bin目录下，去掉.py后缀即可运行
