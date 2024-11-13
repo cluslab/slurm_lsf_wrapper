@@ -1,5 +1,5 @@
 # slurm_lsf_wrapper
-### 三级标题本项目将slurm的命令包装成LSF的常用命令，使得在slurm集群下的用户可以使用LSF的常用命令行
+### 本项目将slurm的命令包装成LSF的常用命令，使得在slurm集群下的用户可以使用LSF的常用命令行
 ### 目前支持的命令包括：
 1. bkill
 2. bjobs
